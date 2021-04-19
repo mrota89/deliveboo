@@ -47,16 +47,16 @@
                     <div class="col-8 row-jumbotronn-row-types fl">
                         <div class="row-jumbotronn-row-types-row row">
                             <div class="col-3 row-jumbotronn-row-types-row-type">
-                                <a href="http://foodbakery.chimpgroup.com/foodstop/listings/?foodbakery_restaurant_category=breakfast"><img alt="" src="http://foodbakery.chimpgroup.com/foodstop/wp-content/uploads/top-icon-1.png"><h6 style="color:#ffffff !important;"><span>BreakFast</span></h6></a>
+                                <div class="row-jumbotronn-row-types-row-type-t"><a href="http://foodbakery.chimpgroup.com/foodstop/listings/?foodbakery_restaurant_category=breakfast"><img alt="" src="http://foodbakery.chimpgroup.com/foodstop/wp-content/uploads/top-icon-1.png"><h6 style="color:#ffffff !important;"><span>BreakFast</span></h6></a></div>
                             </div>
                             <div class="col-3 row-jumbotronn-row-types-row-type">
-                                <a href="http://foodbakery.chimpgroup.com/foodstop/listings/?foodbakery_restaurant_category=dinner"><img alt="" src="http://foodbakery.chimpgroup.com/foodstop/wp-content/uploads/top-icon-1-03.png"><h6 style="color:#ffffff !important;"><span>Dinner</span></h6></a>
+                                <div class="row-jumbotronn-row-types-row-type-t"><a href="http://foodbakery.chimpgroup.com/foodstop/listings/?foodbakery_restaurant_category=dinner"><img alt="" src="http://foodbakery.chimpgroup.com/foodstop/wp-content/uploads/top-icon-1-03.png"><h6 style="color:#ffffff !important;"><span>Dinner</span></h6></a></div>
                             </div>
                             <div class="col-3 row-jumbotronn-row-types-row-type">
-                                <a href="http://foodbakery.chimpgroup.com/foodstop/listings/?foodbakery_restaurant_category=lunch"><img alt="" src="http://foodbakery.chimpgroup.com/foodstop/wp-content/uploads/top-icon-1-02.png"><h6 style="color:#ffffff !important;"><span>Lunch</span></h6></a>
+                                <div class="row-jumbotronn-row-types-row-type-t"><a href="http://foodbakery.chimpgroup.com/foodstop/listings/?foodbakery_restaurant_category=lunch"><img alt="" src="http://foodbakery.chimpgroup.com/foodstop/wp-content/uploads/top-icon-1-02.png"><h6 style="color:#ffffff !important;"><span>Lunch</span></h6></a></div>
                             </div>
                             <div class="col-3 row-jumbotronn-row-types-row-type">
-                                <a href="http://foodbakery.chimpgroup.com/foodstop/listings/?foodbakery_restaurant_category=delivery"><img alt="" src="http://foodbakery.chimpgroup.com/foodstop/wp-content/uploads/top-icon-1-04.png"><h6 style="color:#ffffff !important;"><span>Delivery</span></h6></a>
+                                <div class="row-jumbotronn-row-types-row-type-t"><a href="http://foodbakery.chimpgroup.com/foodstop/listings/?foodbakery_restaurant_category=delivery"><img alt="" src="http://foodbakery.chimpgroup.com/foodstop/wp-content/uploads/top-icon-1-04.png"><h6 style="color:#ffffff !important;"><span>Delivery</span></h6></a></div>
                             </div>
                         </div>
                     </div>

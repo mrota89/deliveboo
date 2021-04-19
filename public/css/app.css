@@ -10108,6 +10108,16 @@ main .row-jumbotronn-row-types {
   bottom: 3%;
   transform: translate(50%, 0);
 }
+main .row-jumbotronn-row-types-row-type-t {
+  width: 100%;
+  transition: 2s;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+main .row-jumbotronn-row-types-row-type-t:hover {
+  background-color: rgba(200, 200, 200, 0.4);
+  transform: scale(1.05);
+}
 main .row-restaurants {
   height: 85vh;
 }
@@ -10128,6 +10138,7 @@ main .row-restaurants-row-subtitle {
 }
 main .row-restaurants-row-cards-row-card {
   margin-top: 20px;
+  transition: 2s;
 }
 main .row-restaurants-row-cards-row-card-img {
   width: 100%;
@@ -10160,6 +10171,10 @@ main .row-restaurants-row-cards-row-card-body-status {
   margin-top: 15px;
   line-height: 40px;
   background-color: #333;
+}
+main .row-restaurants-row-cards-row-card:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 10px 14px black;
 }
 
 header {

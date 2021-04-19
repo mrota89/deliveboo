@@ -46,6 +46,20 @@ main {
                     right: 50%;
                     bottom: 3%;
                     transform: translate(50%, 0);
+                    &-row {
+                        &-type {
+                            &-t{
+                                width: 100%;
+                                transition: 2s;
+                                border-radius: 50px;
+                                margin-top: 10px;
+                            }
+                            &-t:hover {
+                                background-color: rgba(200, 200, 200, 0.4);
+                                transform: scale(1.05);
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -69,6 +83,7 @@ main {
                     &-row{
                         &-card{
                             margin-top: 20px;
+                            transition: 2s;
                             &-img{
                                 width: 100%;
                                 text-align: center;
@@ -101,6 +116,10 @@ main {
                                     background-color:  #333;
                                 }
                             }
+                        }
+                        &-card:hover{
+                            transform: scale(1.05);
+                            box-shadow: 5px 10px 14px black;
                         }
                     }
                 }
