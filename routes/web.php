@@ -18,10 +18,11 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 // visualizzazione homepage
-Route::get('', 'Guest\HomeController@index')->name('home');
-
-// visualizzazione ristoranti
-Route::get('search', 'Guest\HomeController@businessList')->name('business-list');
+Route::get('', 'Guest\PublicController@index')->name('businesses-list');;
+// visualizzazione lista prodotti per ristorante
+Route::get('businesses/{business}', 'Guest\PublicController@show')->name('business-menu');
+// visualizzazione ordine
+Route::get('order/create', 'Guest\PublicController@orderCreate')->name('order');
 
 
 Route::prefix('dashboard')

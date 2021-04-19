@@ -8,6 +8,7 @@
       <title>Deliveboo</title>
 
       <!-- Scripts -->
+      <script src="https://cdn.jsdelivr.net/npm/vue"></script>
       <script src="{{ asset('js/app.js') }}" defer></script>
 
       <!-- Styles -->
