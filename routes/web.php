@@ -17,12 +17,13 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-// visualizzazione homepage
+/* // visualizzazione homepage
 Route::get('', 'Guest\HomeController@index')->name('home');
 
 // visualizzazione ristoranti
-Route::get('search', 'Guest\HomeController@businessList')->name('business-list');
+Route::get('search', 'Guest\HomeController@businessList')->name('business-list'); */
 
+Route::get('home', 'hoomeController@index')->name('home');
 
 Route::prefix('dashboard')
 ->namespace('Admin')
