@@ -10,16 +10,16 @@
     <title>Home</title>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="wrapper">
         @include('parts.header')
 
 
-    <main>
+    <main class="main-home">
         <div class="row">
             <div class="col-12 row-jumbotronn">
                 <div class="row-jumbotronn-row row">
                     <div class="col-12 row-jumbotronn-row-title fl">
-                        Find Restaurants
+                        Deliveboo
                     </div>
                 </div>
                 <div class="row-jumbotronn-row row">

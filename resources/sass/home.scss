@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    width: 100%;
+.wrapper{
+    max-width: 100%;
+    width: 100vw;
 }
 
  .fl{
@@ -12,7 +13,7 @@
 }
 
 
-main {
+.main-home {
     .row {
         &-jumbotronn {
             height: 100vh;
@@ -50,7 +51,7 @@ main {
                         &-type {
                             &-t{
                                 width: 100%;
-                                transition: 2s;
+                                transition: 1s;
                                 border-radius: 50px;
                                 margin-top: 10px;
                             }
@@ -83,7 +84,7 @@ main {
                     &-row{
                         &-card{
                             margin-top: 20px;
-                            transition: 2s;
+                            transition: 1s;
                             &-img{
                                 width: 100%;
                                 text-align: center;

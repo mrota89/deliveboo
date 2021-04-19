@@ -10,11 +10,19 @@ header {
         .col-12 {
             .row {
                 padding-top: 18px;
+                text-align: center;
                 span {
                     font-size: 18px;
-                    margin: 20px;
+                    margin: 20px 10px;
                     color: white;
                     font-family: 'Roboto', sans-serif;
+                    transition: 0.5s;
+                    border-radius: 50px;
+                }
+                span:hover {
+                    transform: scale(1.08);
+                    background-color: rgba(175, 175, 175, 0.3);
+                    padding: 7px 12px;
 
                 }
                 .top-right {
@@ -23,7 +31,7 @@ header {
                         color: white;
                         float: right;
                         margin: 0 10px;
-                    font-family: 'Roboto', sans-serif;
+                        font-family: 'Roboto', sans-serif;
 
                     }
                 }

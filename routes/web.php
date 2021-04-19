@@ -25,6 +25,9 @@ Route::get('search', 'Guest\HomeController@businessList')->name('business-list')
 
 Route::get('home', 'hoomeController@index')->name('home');
 
+Route::get('restaurant', 'Guest\RestaurantController@index')->name('restaurant');
+
+
 Route::prefix('dashboard')
 ->namespace('Admin')
 ->middleware('auth')
